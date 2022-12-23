@@ -1,0 +1,45 @@
+0. What is functions?
+		
+		Functions are resulable block of code
+
+		Syntax
+		function <functionName>(){
+		
+		}
+
+		Eg.
+		function anilDollor(){
+		}
+
+1. Function Naming Convention/Rule  camleCase
+2. Function Defination
+3. Function Calling
+4. Actual Arguments
+5. Formal Argument
+6. Function with no return value
+7. Function with some return value
+8. Function Defination can be stored in variable
+9. Default Value of function
+
+Assignment 
+
+Create Function From A to Z
+
+		funcA,funcB,funcC......,funcZ
+
+
+
+Append vs Prepend
+
+
+
+DOM (Document Object Model)
+
+
+
+Append
+
+<body>
+	
+	<div></div>
+</body>

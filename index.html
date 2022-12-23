@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="./css/style.css"> 
+        <style>
+
+        </style>
+        <script>
+            // I can write the JS code before the closing of body tag
+        </script>
+    </head>
+    <body>
+        <h2></h2>
+        
+        
+
+        <script>
+            // I can write the JS code before the closing of body tag
+
+            //Functions
+            /*
+                //1. Function defination
+                function functionname
+                
+                // Is should be writtern in camleCase
+            */
+            //1. Function defination
+
+            //Global variable
+            let b = document.querySelector('body');
+
+            // example of  Function with no return value
+            function myFunctionA(){ // Valid function name
+                console.log(b);//statement1
+                let h1 = document.createElement('h1');
+                let n1 = 'Amid China Covid surge, caution in India with focus on masks, testing: Top 10';
+                h1.append(n1);
+                b.append(h1);
+            }
+            
+            //2. Function calling
+            myFunctionA();
+
+        </script>
+        <script>
+
+            //1. Function defination
+
+            // example of  Function with no return value
+            function myFunctionB(n2){ // n2 is a formal argument/parameter
+
+                let h2 = document.createElement('h1');
+                h2.append(n2);
+                b.append(h2);
+                
+            }
+
+            //2. Function calling
+
+            myFunctionB('Air chief flags ‘critical deficiencies’ in Indian Air Force'); //Actual argument
+        </script>
+
+        <script>
+            // 1. Function Defination
+            function myFunctionC(n3='Most famous YouTuber MrBeast asks \'Can I be new Twitter CEO?\', Elon Musk says...'){// n3 is formal argument, n3 contain default value
+
+                let h3 = document.createElement('h1');
+
+                h3.append(n3);
+                b.append(h3);
+            }
+
+            //2. Functin calling
+            myFunctionC();
+        </script>
+
+        <script>
+            //1. function defination
+
+            function myFunctionD(n4="'Hello? You're no longer BCCI president. So you better...': Gavaskar's unexpected message to Sourav Ganguly on Live TV"){
+                let h4 = document.createElement('h1');
+                h4.append(n4);
+
+                b.append(h4);
+            }
+
+            //2. function calling
+            myFunctionD('Delhi govt schools to close for winter vacation from Jan 1');
+        </script>
+
+        <script>
+            //.1 Function defination
+
+            // Function with return value
+            function myFunctionE(){
+                return 'India, China talk past each other on Depsang and Demchok';
+            }
+
+            let n5 = myFunctionE();
+
+            let h5 = document.createElement('h1');
+            h5.append(n5);
+            b.append(h5);
+        </script>
+        <script>
+
+            //8. Function Defination can be stored in variable
+
+            //1. Function defiantion
+            let y = function myFunctionF(){
+                console.log('Hello from myFunctionF');
+            }   
+            let z = function myFunctionG(){
+                console.log('Hello from myFunctionG');
+            }
+
+            //2. FUnction calling
+
+            //myFunctionF();
+            y();
+            z();
+
+
+        </script>
+    </body>
+</html>
